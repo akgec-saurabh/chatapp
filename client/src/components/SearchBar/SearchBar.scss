@@ -1,0 +1,27 @@
+.searchbar {
+  height: 3.5rem;
+  input {
+    width: 100%;
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 0.6rem;
+    background-color: var(--search);
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid gray;
+    border-radius: 4px;
+    color: white;
+
+    &::placeholder {
+      color: white;
+    }
+
+    &:focus {
+      border-bottom: 1px solid blue;
+
+      &::placeholder {
+        color: gray;
+      }
+    }
+  }
+}

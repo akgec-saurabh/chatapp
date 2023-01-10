@@ -1,0 +1,18 @@
+.chatbar {
+  height: calc(100vh - 6rem);
+  position: fixed;
+  overflow-y: scroll;
+  padding-bottom: 2rem;
+}
+
+::-webkit-scrollbar {
+  width: 2.5px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
